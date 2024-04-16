@@ -30,6 +30,7 @@
 
 /* App.css */
 
+
 /* Navigation Bar */
 .navbar {
   background-color: #333;
@@ -37,46 +38,67 @@
 }
 
 .navbar-nav {
+  /* position: relative;
+  right: 0; */
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .nav-item {
+  position: relative;
+  right: 0;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 120px;
 }
 
 .nav-link {
   color: #fff;
   text-decoration: none;
 }
+.nav-link:hover{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
 
 /* Hero Section */
 .hero {
-  background-color: #f0f0f0;
-  padding: 50px 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #ff7675, #00b894); /* Gradient background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
 }
 
 .content {
-  text-align: center;
-  margin-bottom: 30px;
+  max-width: 600px;
+  padding: 0 20px;
 }
 
 /* Boxes */
 .wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .box {
   width: 100px;
   height: 100px;
-  background-color: #ccc;
+  background-color: #6c5ce7; /* Purple color */
   margin: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 

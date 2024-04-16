@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import HelloMessage from './component/hello';
-import Hero from './component/nav';
+import Hero from './component/Heros';
 
 
 function App() {

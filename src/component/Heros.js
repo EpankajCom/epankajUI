@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css'; // Import your CSS file for styling
 
 class Hero extends React.Component {
   render() {
@@ -26,16 +25,16 @@ class Hero extends React.Component {
         {/* Hero Section */}
         <div className="hero">
           <div className="content">
-            <h1>Welcome to Our Website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1>Welcome to rajlee Innovations PVT LTD</h1>
+            <p>To build a global corporation renowned for its relentless focus on optimization, distinguished by its repertoire of inventive processes, enterprising staff, and cutting edge tools.</p>
           </div>
 
           {/* Four Divs Inside One Div */}
           <div className="wrapper">
-            <div className="box">Box 1</div>
-            <div className="box">Box 2</div>
-            <div className="box">Box 3</div>
-            <div className="box">Box 4</div>
+            <div className="box">Course 1</div>
+            <div className="box">Course 2</div>
+            <div className="box">Course 3</div>
+            <div className="box">Course 4</div>
           </div>
         </div>
       </div>
@@ -43,5 +42,5 @@ class Hero extends React.Component {
   }
 }
 
-export default App;
+export default Hero;
 
