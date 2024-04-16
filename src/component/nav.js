@@ -1,24 +1,47 @@
 import React from 'react';
+import './App.css'; // Import your CSS file for styling
 
-class Header extends React.Component {
+class Hero extends React.Component {
   render() {
     return (
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Contact</a></li>
+      <div>
+        {/* Navigation Bar */}
+        <nav className="navbar">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a href="#" className="nav-link">Home</a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">About</a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Services</a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Contact</a>
+            </li>
           </ul>
         </nav>
-        <div className="auth-buttons">
-          <button>Login</button>
-          <button>Signup</button>
+
+        {/* Hero Section */}
+        <div className="hero">
+          <div className="content">
+            <h1>Welcome to Our Website</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+
+          {/* Four Divs Inside One Div */}
+          <div className="wrapper">
+            <div className="box">Box 1</div>
+            <div className="box">Box 2</div>
+            <div className="box">Box 3</div>
+            <div className="box">Box 4</div>
+          </div>
         </div>
-      </header>
+      </div>
     );
   }
 }
 
-export default Header;
+export default App;
+

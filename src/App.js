@@ -1,16 +1,14 @@
 import './App.css';
 import React from 'react';
 import HelloMessage from './component/hello';
-import Header from './component/nav';
-// import './component/Navbar';git clr
+import Hero from './component/nav';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Header />
-      {/* <Navbar/>   */}
+      <Hero/>
         <h1>Welcome to Rajlee Innovations</h1>
         <HelloMessage />
       </header>
