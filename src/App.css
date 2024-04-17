@@ -79,19 +79,30 @@
   max-width: 600px;
   padding: 0 20px;
 }
+.content h1{
+  font-size: 60px;
+  font: 800;
+  color: black;
+}
+.content p{
+  color: rgb(255, 235, 51);
+text-align: justify;
+  font-size: medium;
+}
 
 /* Boxes */
 .wrapper {
+  width: 100vw;
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 200px;
   background-color: #6c5ce7; /* Purple color */
-  margin: 0 10px;
+  margin: 20px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
