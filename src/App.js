@@ -2,7 +2,8 @@ import './App.css';
 import React from 'react';
 import HelloMessage from './component/hello';
 import Hero from './component/Heros';
-import FooterLast from './component/footerlast';
+import Footer from './component/footerlast';
+
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       
         <h1>Welcome to Rajlee Innovations</h1>
         <HelloMessage />
-        <FooterLast/>
+        <Footer/>
       </header>
     </div>
     
