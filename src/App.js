@@ -3,7 +3,7 @@ import React from 'react';
 import HelloMessage from './component/hello';
 import Hero from './component/Heros';
 import Footer from './component/footerlast';
-
+import TestimonialSlider from './component/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       
         <h1>Welcome to Rajlee Innovations</h1>
         <HelloMessage />
+        <TestimonialSlider/>
         <Footer/>
       </header>
     </div>
