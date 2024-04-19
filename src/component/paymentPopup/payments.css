@@ -1,0 +1,143 @@
+.popup { 
+  box-shadow: 2px 2px 4px 4px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(pink,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #cross {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    cursor: pointer;
+    z-index: 9999; /* Ensure it's above other content */
+    color: #000; /* Adjust the color as needed */
+    font-size: 30px; /* Adjust the size as needed */
+  }
+  
+  .popup-inner {
+    background-color: rgb(92, 246, 231);
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  .popup-inner h2 {
+    color: black;
+  }
+  #image{
+    border-radius: 5px;
+    margin: 0px auto;
+    height: 60px;
+    width: 70px;
+  }
+  .popup-inner p {
+    color: black;
+  }
+  
+  .login-form {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .login-form h3 {
+    color: black;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 2px;
+    color: black;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  } 
+  
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: linear-gradient(45deg, #ff6b6b, #556270);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.popup p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.login-form h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+} */

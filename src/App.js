@@ -4,6 +4,7 @@ import HelloMessage from './component/hello';
 import Hero from './component/Heros';
 import Footer from './component/footerlast';
 import TestimonialSlider from './component/Testimonial/Testimonial';
+import PaymentConfirmationPopup from './component/paymentPopup/Payment';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <HelloMessage />
         <TestimonialSlider/>
         <Footer/>
+      <PaymentConfirmationPopup/>
       </header>
     </div>
     
